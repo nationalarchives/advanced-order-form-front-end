@@ -6,8 +6,7 @@
         <div class="container">
             <div class="row">
                 <main id="main" class="col-xs-12 col-sm-8 col-md-8" role="main">
-
-                    <article id="post-86" class="post-86 page type-page status-publish hentry category-hide-newsletter">
+                    <article>
                         <div class="entry-header">
                             <h1>Order documents</h1>
                         </div>
@@ -28,9 +27,7 @@
                                 <li><b>Catalogue reference(s)</b>. You can make a note of these by searching the catalogue in advance, or by searching from this page. You can order up to 12 documents.</li>
                             </ul>
                             <form action="" id="" class="form-abandonment" method="POST" novalidate="novalidate">
-
-                                <input type="hidden" name="tna-form" value="Your views"><input type="hidden" name="token" value="bc82cbb4e8f7c3d80b110bb30789e4c0"><input type="hidden" name="timestamp" value="1515062912">
-                                <p><span class="mandatory">&#42;</span> = compulsory fields</p>
+                                <p>Fields marked <span class="mandatory">&#42;</span> are compulsory</p>
                                 <fieldset>
                                     <legend>Your reader's ticket</legend>
                                     <div class="form-row">
