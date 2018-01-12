@@ -1,0 +1,84 @@
+.form-row input[type=text].small {
+		width: 150px !important;
+		min-width: 150px !important;
+}
+.form-row input[type=text].medium {
+		width: 265px !important;
+		min-width: 265px !important;
+}
+.submit {
+		max-width: 100% !important;
+		float: left;
+		width: 100%;
+}
+.submit .positioned {
+		float: right;
+}
+.checkbox {
+		max-width: 100% !important;
+}
+.scope-selector {
+	    display: inline-block;
+	    background-color: #ccc;
+	    background-size: cover;
+	    cursor: pointer;
+	    width: 34px;
+	    height: 34px;
+	    line-height: 35px;
+	    background-image: url('http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/search-white.png');
+}
+.arrow-steps li.current {
+    color: #fff;
+    background-color: #405480;
+}
+.arrow-steps li.current:after {
+	border-left: 17px solid #405480;
+}
+.two-tier-list {
+	padding: 1.5em;
+	border: 1px solid #ccc;
+}
+.two-tier-list li {
+	margin: 0 0 20px 0; 
+	font-family: 'Bitter', sans-serif;
+	font-size: 1.1em;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dotted #ccc;
+	list-style-position: inside;
+}
+.two-tier-list li:last-child {
+	border-bottom: 0;
+}
+.two-tier-list li span {
+	font-size: 0.85em;
+	display: block;
+	font-family: 'Open sans', sans-serif;
+}
+legend {
+	font-size: 1.3em !important;
+}
+main > article {
+	min-height: 600px;
+}
+p span.mandatory, span.mandatory {
+	color: #CB0D07;
+}
+.arrow-steps {
+	display: block;
+}
+.form-row .form-error {
+	background: transparent;
+	padding: 4px 0 0 0 !important;
+	color: #CB0D07;
+	font-size: 0.9em;
+}
+.form-row .form-warning {
+	border: 2px solid #CB0D07 !important;
+	background: #fdf2f2;
+}
+.error-message {
+	background-color: #fdf2f2 !important;
+	border-left: 4px solid #CB0D07 !important;
+	padding: 0.5em 1.5em;
+	color: #CB0D07;
+}
