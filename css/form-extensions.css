@@ -68,7 +68,7 @@ p span.mandatory, span.mandatory {
 }
 .form-row .form-error {
 	background: transparent;
-	padding: 4px 0 0 0 !important;
+	padding: 0 0 2px 0 !important;
 	color: #CB0D07;
 	font-size: 0.9em;
 }
@@ -81,4 +81,7 @@ p span.mandatory, span.mandatory {
 	border-left: 4px solid #CB0D07 !important;
 	padding: 0.5em 1.5em;
 	color: #CB0D07;
+}
+.form-row #groupErrorPlacement {
+	margin-top: 5px;
 }

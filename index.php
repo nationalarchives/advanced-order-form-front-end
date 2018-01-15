@@ -27,70 +27,83 @@
                                 <li><b>Catalogue reference(s)</b>. You can make a note of these by searching the catalogue in advance, or by searching from this page. You can order up to 12 documents.</li>
                             </ul>
                             <form action="" id="" class="" method="POST" novalidate="novalidate">
-                                <p>Fields marked <span class="mandatory">&#42;</span> are compulsory</p>
                                 <fieldset>
                                     <legend>Your reader's ticket</legend>
                                     <div class="form-row">
-                                        <label for="readers_ticket">Reader's ticket number <span class="mandatory">&#42;</span></label>
+                                        <label for="readers_ticket">Reader's ticket number</label>
                                         <input type="text" id="readers_ticket" name="readers_ticket" class="small" required>
                                     </div>
                                 </fieldset>
                                 <fieldset>
                                     <legend>Your documents</legend>
                                     <div class="form-row">
-                                        <label for="date_of_visit">Date of visit <span class="mandatory">&#42;</span></label>
-                                        <input type="text" id="date_of_visit" name="date_of_visit">
+                                        <p id="dob"><b>Date of visit</b></p>
+                                        <span id="reference-1-error" class="form-error form-hint">Please insert a valid day</span>
+                                        <div id="groupErrorPlacement">
+                                            <span class="dob-col day">
+                                                <label id="day" for="certificate_day">Day</label>
+                                                <input type="number" aria-labelledby="dob day" id="certificate_day" name="certificate-day" class="form-warning">
+                                            </span>
+                                            <span class="dob-col month">
+                                                <label id="month" for="certificate_month">Month</label>
+                                                <input type="number" aria-labelledby="dob month" id="certificate_month" name="certificate-month">
+                                            </span>
+                                            <span class="dob-col year">
+                                                <label id="year" for="certificate_year">Year</label>
+                                                <input type="number" aria-labelledby="dob year" id="certificate_year" name="certificate-year">
+                                            </span>
+                                        </div>
                                     </div>
                                     <div class="form-row">
                                         <p class="form-hint">Please enter your catalogue references in the fields below. To search the catalogue from this form, please click on the icon next to each field.</p>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_1">Document 1 <span class="mandatory">&#42;</span></span></label>
-                                        <input type="text" id="reference_1" name="reference_1" class="medium form-warning"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <label for="reference_1">Document 1</label>
                                         <span id="reference-1-error" class="form-error form-hint">Please insert a reference number</span>
+                                        <input type="text" id="reference_1" name="reference_1" class="medium form-warning"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_2">Document 2</label>
+                                        <label for="reference_2">Document 2 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_2" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_3">Document 3</label>
+                                        <label for="reference_3">Document 3 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_3" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_4">Document 4</label>
+                                        <label for="reference_4">Document 4 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_4" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_5">Document 5</label>
+                                        <label for="reference_5">Document 5 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_5" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_6">Document 6</label>
+                                        <label for="reference_6">Document 6 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_6" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_7">Document 7</label>
+                                        <label for="reference_7">Document 7 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_7" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_8">Document 8</label>
+                                        <label for="reference_8">Document 8 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_8" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_9">Document 9</label>
+                                        <label for="reference_9">Document 9 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_9" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_10">Document 10</label>
+                                        <label for="reference_10">Document 10 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_10" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_11">Document 11</label>
+                                        <label for="reference_11">Document 11 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_11" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="reference_12">Document 12</label>
+                                        <label for="reference_12">Document 12 <span class="optional">(optional)</span></label>
                                         <input type="text" id="reference_12" name="reference_1" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
@@ -100,27 +113,27 @@
                                 <fieldset>
                                     <legend>Your details</legend>
                                     <div class="form-row">
-                                        <label for="full_name">Full name <span class="mandatory">&#42;</span></label>
+                                        <label for="full_name">Full name</label>
                                         <input type="text" id="full_name" name="full_name">
                                     </div>
                                     <div class="form-row">
-                                        <label for="tel">Telephone (include area code) <span class="mandatory">&#42;</span></label>
+                                        <label for="tel">Telephone (include area code)</label>
                                         <input type="text" id="tel" name="tel">
                                     </div>
                                     <div class="form-row">
-                                        <label for="email_address">Email </label>
+                                        <label for="email_address">Email <span class="optional">(optional)</span></label>
                                         <input type="email" id="email" name="email">
                                     </div>
                                     <div class="form-row">
-                                        <label for="requirements">Let us know in the box below if you must access this document on the date of your arrival as we cannot guarantee that all of the documents ordered will be available. Please also use this form to tell us if you have any accessibility requirements. </label>
+                                        <label for="requirements">Let us know in the box below if you must access this document on the date of your arrival as we cannot guarantee that all of the documents ordered will be available. Please also use this form to tell us if you have any accessibility requirements. <span class="optional">(optional)</span></label>
                                         <textarea id="requirements" name="requirements" aria-required="false" required=""></textarea>
                                     </div>
                                     <div class="form-row">
-                                        <label for="seat-number">If you would like to specify a particular table, please look at the <a href="http://www.nationalarchives.gov.uk/documents/document-reading-room.pdf" title="">floor plan</a> (PDF, 526kb) and enter the seat number here.</label>
+                                        <label for="seat-number">If you would like to specify a particular table, please look at the <a href="http://www.nationalarchives.gov.uk/documents/document-reading-room.pdf" title="">floor plan</a> (PDF, 526kb) and enter the seat number here. <span class="optional">(optional)</span></label>
                                         <input type="text" id="seat_number" name="seat_number" class="small">
                                     </div>
                                 </fieldset>
-                                <div class="form-row checkbox"><input type="checkbox" id="privacy_policy" name="privacy_policy" value="Yes"><label for="privacy_policy">I have read and agree to The National Archives' <a href="http://www.nationalarchives.gov.uk/legal/privacy.htm" title="Opens in a new window" target="_blank">privacy statement </a> <span class="mandatory">&#42;</span></label></div>
+                                <div class="form-row checkbox"><input type="checkbox" id="privacy_policy" name="privacy_policy" value="Yes"><label for="privacy_policy">I have read and agree to The National Archives' <a href="http://www.nationalarchives.gov.uk/legal/privacy.htm" title="Opens in a new window" target="_blank">privacy statement </a></label></div>
                                 <div class="form-row submit"><input type="submit" name="submit-rre" id="submit-tna-form" value="Continue"></div>
                             </form>
                         </div>
