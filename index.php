@@ -42,11 +42,11 @@
                                     <legend>Your documents</legend>
                                     <div class="form-row">
                                         <p id="dov"><b>Date of visit</b></p>
-                                        <span id="reference-1-error" class="form-error form-hint" aria-describedby="error-message-id">Please insert a valid day</span>
+                                        <span id="date-of-visit-error" class="form-error form-hint">Please insert a valid day</span>
                                         <div id="groupErrorPlacement">
                                             <span class="dob-col day">
                                                 <label id="day" for="dov_day">Day</label>
-                                                <select type="number" aria-labelledby="dov day" id="dov_day" name="dov_day" class="form-warning">
+                                                <select type="number" aria-labelledby="dov day" id="dov_day" name="dov_day" class="form-warning" aria-describedby="date-of-visit-error">
                                                     <option>1</option>
                                                     <option>2</option>
                                                     <option>3</option>
@@ -111,8 +111,8 @@
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_1">Document 1</label>
-                                        <span id="reference-1-error" class="form-error form-hint" aria-describedby="error-message-id">Please insert a reference number</span>
-                                        <input type="text" id="reference_1" name="reference_1" class="medium form-warning" required aria-required="true"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <span id="reference-1-error" class="form-error form-hint">Please insert a reference number</span>
+                                        <input type="text" id="reference_1" name="reference_1" class="medium form-warning" required aria-required="true" aria-describedby="reference-1-error"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_2">Document 2 <span class="optional">(optional)</span></label>

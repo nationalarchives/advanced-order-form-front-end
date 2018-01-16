@@ -19,9 +19,19 @@
                                 </ul>
                             </div>
                         <h2>Your order is complete</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium metus varius, ornare odio a, viverra est. Cras ornare justo urna, eu congue arcu eleifend sed. Vestibulum pretium tempus dolor sit amet faucibus. Proin in nisi enim. Integer ut blandit ex. Duis eu arcu nec ex bibendum consequat. Nam hendrerit, elit consequat tempus mollis, turpis dui interdum eros, in posuere enim dui ac quam. Pellentesque ornare est non</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium metus varius, ornare odio a, viverra est.</p>
+                        <p id="print-button"><a href="http://discovery.nationalarchives.gov.uk/" title="" class="">Print this page</a></p>
+                        <ol class="two-tier-list">
+                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                        </ol>
 
-                        <a href="http://discovery.nationalarchives.gov.uk/" title="">Browse Discovery - our catalogue &gt;</a>
                         </div>
                     </article>
                 </main>

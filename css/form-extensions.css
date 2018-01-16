@@ -100,3 +100,14 @@ p span.mandatory, span.mandatory {
 		max-width: 90px;
 	}
 }
+@media print {
+	.entry-header {
+		display: none;
+	}
+	.arrow-steps {
+		display: none;
+	}
+	#print-button {
+		display: none;
+	}
+}
