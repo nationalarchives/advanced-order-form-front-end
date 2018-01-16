@@ -3,8 +3,8 @@
 		min-width: 150px !important;
 }
 .form-row input[type=text].medium {
-		width: 265px !important;
-		min-width: 265px !important;
+		width: 230px !important;
+		min-width: 230px !important;
 }
 .submit {
 		max-width: 100% !important;
@@ -80,8 +80,22 @@ p span.mandatory, span.mandatory {
 	background-color: #fdf2f2 !important;
 	border-left: 4px solid #CB0D07 !important;
 	padding: 0.5em 1.5em;
+}
+.error-message h2 {
 	color: #CB0D07;
 }
 .form-row #groupErrorPlacement {
 	margin-top: 5px;
+}
+.form-row .dob-col {
+	max-width: 75px;
+}
+@media screen and (min-width: 1024px) {
+	.form-row input[type=text].medium {
+		width: 265px !important;
+		min-width: 265px !important;
+	}
+	.form-row .dob-col {
+		max-width: 90px;
+	}
 }
