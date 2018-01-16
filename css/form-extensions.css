@@ -3,8 +3,7 @@
 		min-width: 150px !important;
 }
 .form-row input[type=text].medium {
-		width: 180px !important;
-		min-width: 180px !important;
+		width: 75% !important;
 }
 .submit {
 		max-width: 100% !important;
@@ -88,7 +87,8 @@ p span.mandatory, span.mandatory {
 	margin-top: 5px;
 }
 .form-row .dob-col {
-	max-width: 70px !important;
+	width: 100%;
+	max-width: 65px !important;
 }
 @media screen and (min-width: 1024px) {
 	.form-row input[type=text].medium {
