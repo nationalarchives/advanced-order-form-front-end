@@ -8,41 +8,49 @@
                 <main id="main" class="col-xs-12 col-sm-8 col-md-8" role="main">
                     <article>
                         <div class="entry-header">
-                            <h1>Order documents</h1>
+                            <h1>Order documents to view onsite</h1>
                         </div>
                         <div class="entry-content clearfix">
                             <div class="arrow-steps clearfix"">
                                 <ul>
-                                    <li class="current"><span>1</span> Order details</li>
-                                    <li><span>2</span> Check your order</li>
-                                    <li><span>3</span> Complete</li>
+                                    <li class="current"><span>1</span> Place order</li>
+                                    <li><span>2</span> Check order</li>
+                                    <li><span>3</span> Order complete</li>
                                 </ul>
                             </div>
-                            <div class="emphasis-block error-message" role="alert"><h2>Sorry, there were the following problems:</h2>
-                            <ul>
-                                <li>Please insert a valid day</li>
-                                <li>Please insert a valid reference number</li>
-                            </ul></div>
-                            <h2>Order details</h2>
-                            <p>To access documents onsite at The National Archives, you will need to know the following:</p>
-                            <ul>
-                                <li><b>Your reader’s ticket number</b>. If you don’t have one, <a href="https://secure.nationalarchives.gov.uk/login/yourdetails" title="">apply online for a reader’s ticket</a> - it only takes 15 minutes.</li>
-                                <li><b>Date of visit</b>. The last chance to order onsite documents for next day delivery is 4pm. Orders held offsite will need to be ordered 3 working days in advance.</li>
-                                <li><b>Catalogue reference(s)</b>. You can make a note of these by searching the catalogue in advance, or by searching from this page. You can order up to 12 documents.</li>
-                            </ul>
+                            <div class="emphasis-block error-message" role="alert"><h2>There was a problem:</h2>
+                                <ul>
+                                    <li>Insert a valid day</li>
+                                    <li>Insert a valid reference number</li>
+                                </ul>
+                            </div>
+                            <p>This form allows you to pre-order original documents to view at The National Archives. For further information about this process, or to find out how to order digital documents or documents held by other archives, visit <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/accessing-and-copying-documents/" title="">Accessing documents</a>.</p>
+                            <p>To proceed with your order, you will need to know the following:</p>
+                            <div class="emphasis-block">
+                                <ul>
+                                    <li><b>Your reader’s ticket number</b>. If you don’t have one, <a href="https://secure.nationalarchives.gov.uk/login/yourdetails" title="">apply online for a reader’s ticket</a> - it only takes 15 minutes.</li>
+                                    <li><b>Date of visit</b>. Orders for next day delivery must be placed by 16:00. Documents held offsite will need to be ordered three working days in advance.</li>
+                                    <li><b>Catalogue reference(s)</b>. You can order up to 12 documents, and have up to 24 active on your ticket at any given time. You search the catalogue and locate references in advance, or search and populate the order fields from this page.</li>
+                                </ul>
+                            </div>
                             <form action="step-2.php" method="POST" name="orderform" id="orderform">
                                 <fieldset>
                                     <legend>Your reader's ticket</legend>
+                                    <div class="form-row">
+                                        <p class="form-hint">Enter your reader’s ticket number. If you have a card, it is located on the back. A temporary number will be in your email or issued at the end of registration sign-up.</p></p>
+                                    </div>
                                     <div class="form-row">
                                         <label for="readers_ticket">Reader's ticket number</label>
                                         <input type="text" id="readers_ticket" name="readers_ticket" class="small" required aria-required="true">
                                     </div>
                                 </fieldset>
                                 <fieldset>
-                                    <legend>Your documents</legend>
+                                    <legend>Date of visit</legend>
                                     <div class="form-row">
-                                        <p id="dov"><b>Date of visit</b></p>
-                                        <span id="date-of-visit-error" class="form-error form-hint">Please insert a valid day</span>
+                                        <p class="form-hint">Please enter the date of visit. Check our <a href="" title="">opening times</a></p>
+                                    </div>
+                                    <div class="form-row">
+                                        <span id="date-of-visit-error" class="form-error form-hint">Insert a valid day</span>
                                         <div id="groupErrorPlacement">
                                             <span class="dob-col day">
                                                 <label id="day" for="dov_day">Day</label>
@@ -106,12 +114,18 @@
                                             </span>
                                         </div>
                                     </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Catalogue references</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Please enter your catalogue references in the fields below. To search the catalogue from this form, please click on the icon next to each field.</p>
+                                        <p class="form-hint">Please enter your catalogue references in the fields below. To search and locate documents from this form, click on the icon next to each field.</p>
+                                    </div>
+                                    <div class="form-row">
+                                        <p class="form-hint">If you need to order more than 12 consecutive documents from the same series, you may be able to <a href="http://www.nationalarchives.gov.uk/advanceorders/bulkform.asp" title="">place a bulk order</a>.</p>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_1">Document 1</label>
-                                        <span id="reference-1-error" class="form-error form-hint">Please insert a reference number</span>
+                                        <span id="reference-1-error" class="form-error form-hint">Insert a reference number</span>
                                         <input type="text" id="reference_1" name="reference_1" class="medium form-warning" required aria-required="true" aria-describedby="reference-1-error"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
@@ -159,7 +173,12 @@
                                         <input type="text" id="reference_12" name="reference_12" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <p class="form-hint">If you need to order more than 12 consecutive documents <b>from the same series</b>, you may be able to place a bulk order.</p>
+                                        <label for="requirements">Let us know in the box below if you must access this document on the date of your arrival as we cannot guarantee that all of the documents ordered will be available. Please also use this form to tell us if you have any accessibility requirements. <span class="optional">(optional)</span></label>
+                                        <textarea id="requirements" name="requirements"></textarea>
+                                    </div>
+                                    <div class="form-row">
+                                        <label for="seat-number">If you would like to specify a particular table, please look at the <a href="http://www.nationalarchives.gov.uk/documents/document-reading-room.pdf" title="">floor plan</a> (PDF, 526kb) and enter the seat number here. <span class="optional">(optional)</span></label>
+                                        <input type="text" id="seat_number" name="seat_number" class="small">
                                     </div>
                                 </fieldset>
                                 <fieldset>
@@ -175,14 +194,6 @@
                                     <div class="form-row">
                                         <label for="email_address">Email <span class="optional">(optional)</span></label>
                                         <input type="email" id="email" name="email">
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="requirements">Let us know in the box below if you must access this document on the date of your arrival as we cannot guarantee that all of the documents ordered will be available. Please also use this form to tell us if you have any accessibility requirements. <span class="optional">(optional)</span></label>
-                                        <textarea id="requirements" name="requirements"></textarea>
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="seat-number">If you would like to specify a particular table, please look at the <a href="http://www.nationalarchives.gov.uk/documents/document-reading-room.pdf" title="">floor plan</a> (PDF, 526kb) and enter the seat number here. <span class="optional">(optional)</span></label>
-                                        <input type="text" id="seat_number" name="seat_number" class="small">
                                     </div>
                                 </fieldset>
                                 <div class="form-row checkbox"><input type="checkbox" id="privacy_policy" name="privacy_policy" value="Yes" required aria-required="true"><label for="privacy_policy">I have read and agree to The National Archives' <a href="http://www.nationalarchives.gov.uk/legal/privacy.htm" title="Opens in a new window" target="_blank">privacy statement </a></label></div>

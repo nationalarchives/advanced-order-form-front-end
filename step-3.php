@@ -13,9 +13,9 @@
                         <div class="entry-content clearfix">
                             <div class="arrow-steps clearfix"">
                                 <ul>
-                                    <li><span>1</span> Order details</li>
-                                    <li><span>2</span> Check your order</li>
-                                    <li class="current"><span>3</span> Complete</li>
+                                    <li><span>1</span> Place order</li>
+                                    <li><span>2</span> Check order</li>
+                                    <li class="current"><span>3</span> Order complete</li>
                                 </ul>
                             </div>
                         <h2>Your order is complete</h2>

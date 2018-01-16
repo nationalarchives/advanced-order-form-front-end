@@ -91,6 +91,13 @@ p span.mandatory, span.mandatory {
 	width: 100%;
 	max-width: 65px !important;
 }
+legend {
+	margin-bottom: 0.3em !important;
+}
+.emphasis-block {
+	padding-bottom: 0.8em;
+	margin: 1.5em 0;
+}
 @media screen and (min-width: 1024px) {
 	.form-row input[type=text].medium {
 		width: 265px !important;
