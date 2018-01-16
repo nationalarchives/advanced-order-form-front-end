@@ -24,7 +24,7 @@
                                     <li>Insert a valid reference number</li>
                                 </ul>
                             </div>
-                            <p>This form allows you to pre-order original documents to view at The National Archives. For further information about this process, or to find out how to order digital documents or documents held by other archives, visit <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/accessing-and-copying-documents/" title="">Accessing documents</a>.</p>
+                            <p>This form allows you to pre-order original documents to view at The National Archives. For further information about this process, or to find out how to order digital documents or documents held by other archives, visit <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/accessing-and-copying-documents/" title="">accessing documents</a>.</p>
                             <p>To proceed with your order, you will need to know the following:</p>
                             <div class="emphasis-block">
                                 <ul>
