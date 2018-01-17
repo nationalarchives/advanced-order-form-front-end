@@ -37,10 +37,8 @@
                                 <fieldset>
                                     <legend>Your reader's ticket</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Enter your reader’s ticket number. If you have a card, it is located on the back. A temporary number will be in your email or issued at the end of registration sign-up.</p></p>
-                                    </div>
-                                    <div class="form-row">
                                         <label for="readers_ticket">Reader's ticket number</label>
+                                        <p class="form-hint">Enter your reader’s ticket number. If you have a card, it is located on the back. A temporary number will be in your email or issued at the end of registration sign-up.</p>
                                         <input type="text" id="readers_ticket" name="readers_ticket" class="small" required aria-required="true">
                                     </div>
                                 </fieldset>
@@ -173,11 +171,13 @@
                                         <input type="text" id="reference_12" name="reference_12" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
-                                        <label for="requirements">Let us know in the box below if you must access this document on the date of your arrival as we cannot guarantee that all of the documents ordered will be available. Please also use this form to tell us if you have any accessibility requirements. <span class="optional">(optional)</span></label>
+                                        <label for="requirements">Additional requirements <span class="optional">(optional)</span></label>
+                                        <p class="form-hint">Let us know in the box below if you must access this document on the date of your arrival as we cannot guarantee that all of the documents ordered will be available. Please also use this form to tell us if you have any accessibility requirements.</p>
                                         <textarea id="requirements" name="requirements"></textarea>
                                     </div>
                                     <div class="form-row">
-                                        <label for="seat-number">If you would like to specify a particular table, please look at the <a href="http://www.nationalarchives.gov.uk/documents/document-reading-room.pdf" title="">floor plan</a> (PDF, 526kb) and enter the seat number here. <span class="optional">(optional)</span></label>
+                                        <label for="seat-number">Seat number  <span class="optional">(optional)</span></label>
+                                        <p class="form-hint">If you would like to specify a particular table, please look at the <a href="http://www.nationalarchives.gov.uk/documents/document-reading-room.pdf" title="">floor plan</a> (PDF, 526kb) and enter the seat number here.</p>
                                         <input type="text" id="seat_number" name="seat_number" class="small">
                                     </div>
                                 </fieldset>
