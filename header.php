@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta content="initial-scale = 1.0" name="viewport">
-<title>Order documents – The National Archives</title>
+<title>Order documents to view onsite – The National Archives</title>
 
 <link rel="canonical" href="http://www.nationalarchives.gov.uk/advanceorders/orderform.asp">
 <meta property="og:locale" content="en_GB">
@@ -65,7 +65,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body class="page page-id-86 page-parent page-child parent-pageid-83 page-template-default">
+<body>
 
 <!-- Google Tag Manager -->
 <noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-T8DSWV"
