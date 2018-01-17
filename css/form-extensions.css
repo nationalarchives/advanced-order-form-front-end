@@ -6,14 +6,6 @@
 		width: 180px !important;
 		min-width: 180px !important;
 }
-.submit {
-		max-width: 100% !important;
-		float: left;
-		width: 100%;
-}
-.submit .positioned {
-		float: right;
-}
 .checkbox {
 		max-width: 100% !important;
 }
@@ -108,6 +100,14 @@ legend {
 .form-row {
 	max-width: 95% !important;
 }
+.submit {
+	max-width: 100% !important;
+	float: left;
+	width: 100% !important;
+}
+.submit .positioned {
+	float: right;
+}
 @media screen and (min-width: 1024px) {
 	.form-row input[type=text].medium {
 		width: 265px !important;
@@ -118,6 +118,10 @@ legend {
 	}
 	.form-row {
 		max-width: 97% !important;
+	}
+	.submit {
+		max-width: 100% !important;
+		width: 100% !important;
 	}
 }
 @media print {
