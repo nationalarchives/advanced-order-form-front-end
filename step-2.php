@@ -18,25 +18,33 @@
                                     <li><span>3</span> Order complete</li>
                                 </ul>
                             </div>
-                        <h2>Check your order</h2>
-                        <p>You have selected the following documents to order in advance</p>
+                        <p><b>Review your order and click continue to confirm, or back to make an amend.</b></p>
+
+                        <div class="emphasis-block">
+                            <ul class="no-bullet">
+                                <li><b>Name</b>: Joe Bloggs</li>
+                                <li><b>Telephone</b>: 07898 989898</li>
+                                <li><b>Date of visit</b>: 27 Jan 2018</li>
+                            </ul>
+                        </div>
 
                         <form action="step-3.php" method="POST" id="orderformconfirm" name="orderformconfirm">
                             <ol class="two-tier-list">
-                                <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                                <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                                <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                                <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                                <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                                <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                                <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                                <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
+                                <li>Document 1<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 2<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 3<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 4<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 5<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 6<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 7<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 8<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
                             </ol>
                             <div class="form-row submit">
                                 <a href="index.php" title="continue" class="back">&lt; Back</a>
                                 <input type="submit" name="submit-advance-order" id="submit-advance-order" class="positioned" value="Complete order">
                             </div>
                         </form>
+
                         </div>
                     </article>
                 </main>

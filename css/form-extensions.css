@@ -19,6 +19,10 @@
 	    line-height: 35px;
 	    background-image: url('http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/search-white.png');
 }
+.arrow-steps {
+	margin-bottom: 25px;
+	display: block;
+}
 .arrow-steps li.current {
     color: #fff;
     background-color: #405480;
@@ -27,24 +31,27 @@
 	border-left: 17px solid #405480;
 }
 .two-tier-list {
-	padding: 1.5em;
-	border: 1px solid #ccc;
+	padding: 0em 1.5em;
 }
 .two-tier-list li {
-	margin: 0 0 20px 0; 
-	font-family: 'Bitter', sans-serif;
-	font-size: 1.1em;
-	padding: 0 0 10px 0;
-	border-bottom: 1px dotted #ccc;
-	list-style-position: inside;
+
 }
 .two-tier-list li:last-child {
 	border-bottom: 0;
 }
-.two-tier-list li span {
-	font-size: 0.85em;
-	display: block;
+.two-tier-list li {
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
 	font-family: 'Open sans', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #ccc;
+}
+.two-tier-list li span {
+	font-size: 0.9em;
+	display: block;
+	font-weight: normal;
 }
 legend {
 	font-size: 1.3em !important;
@@ -107,6 +114,19 @@ legend {
 }
 .submit .positioned {
 	float: right;
+}
+ol li {
+	list-style-type: none;
+	list-style-position: outside;
+}
+ul.no-bullet {
+	padding: 0 0.5em;
+	margin: 0;
+}
+ul.no-bullet li {
+	border: 0;
+	padding: 0 0 10px 0;
+	margin: 0 0 0 0;
 }
 @media screen and (min-width: 1024px) {
 	.form-row input[type=text].medium {

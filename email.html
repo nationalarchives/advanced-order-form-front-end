@@ -25,94 +25,63 @@
             p {
                 font-size: 0.95em;
             }
-            table {
-                border-collapse: collapse;
-                text-align: left;
-                width: 100%;
-                font-size: 0.9em;
-                margin: 1.5em 0 2em 0;
-                border: 1px solid #ccc;
+            .emphasis-block {
+                margin: 1.5em 0;
+                padding: 1.5em;
+                background-color: #eee;
+                border-left: 4px solid #ccc;
             }
-            tbody {
-                background-color: #efefef;
+            .emphasis-block {
+
             }
-            table td, table th {
-                padding: 10px 15px;
-                border: 1px solid #ccc;
+            ul {
+                padding: 0 0;
+                margin: 0;
             }
-            table td:first-child {
-                width: 20%;
-            }
-            table td:last-child {
-                width: 20%;
-            }
-            table thead th {
-                color: #222222;
-                font-weight: bold;
+            ul li {
+                border: 0;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
             }
 
-            table thead th:first-child {
-                border: none;
+            ol {
+                padding: 0;
+                margin: 30px 0 20px;
             }
-
-            table tbody td {
-                color: #222222;
-                border-left: 1px solid #999999;
-                font-size: 12px;
-                font-weight: normal;
-            }
-
-            table tbody .alt td {
-                background: #EFEFEF;
-                color: #222222;
-            }
-
-            table tbody td:first-child {
-                border-left: none;
-            }
-
-            table tbody tr:last-child td {
-                border-bottom: none;
+            ol li {
+                margin: 0;
+                padding: 0 0 5px 0;
+                font-size: 1em;
+                list-style-type: none;
             }
         </style>
     </head>
     <body>
-        <h1 style="mso-line-height-rule:exactly;">Thank you for your order</h1>
-        <h2 style="mso-line-height-rule:exactly;">Order summary</h2>
-        <p><b>Documents ordered:</b></p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Ref</th>
-                    <th>Description</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>MAF 1/1</td>
-                    <td>Essex: Felsted Manor</td>
-                    <td>Kew</td>
-                </tr>
-                <tr>
-                    <td>MAF 1/1</td>
-                    <td>Essex: Felsted Manor</td>
-                    <td>Offsite</td>
-                </tr>
-            </tbody>
-        </table>
-        <p><b>Reader Ticket Number:</b> 100</p>
-        <p><b>Date of Visit:</b> 12/12/2010</p>
-        <p><b>Additional Comments:</b> Rabia's test </p>
-        <p><b>Preferred Seat Number:</b> 456777 </p>
-        <p><b>Pre 1680 or Large Documents:</b> Yes </p>
-        <p><b>Documents are Off-site:</b> Yes </p>
-        <p>Please note documents which are stored offsite require 3 working days to be delivered.</p>
-        <br>
-
-        <h2 style="mso-line-height-rule:exactly;">Your details</h2>
-        <p><b>Name:</b> Joe Bloggs</p>
-        <p><b>Email address:</b> joe@bloggs.com</p>
-        <p><b>Telephone number:</b> 00000 000000</p>
+        <h1 style="mso-line-height-rule:exactly;">Order summary</h1>
+        <div class="emphasis-block">
+            <ul>
+                <li><b>Name</b>: Joe Bloggs</li>
+                <li><b>Telephone</b>: 07898 989898</li>
+                <li><b>Readers ticket number</b>: 000</li>
+                <li><b>Date of visit</b>: 27 Jan 2018</li>
+            </ul>
+        </div>
+        <ol>
+            <li><b>Document 1</b>: ADM 1/1 Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</li>
+            <li><b>Document 2</b>: ADM 1/1 Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+            <li><b>Document 3</b>: ADM 1/1 Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+            <li><b>Document 4</b>: ADM 1/1 Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+            <li><b>Document 5</b>: ADM 1/1 Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+            <li><b>Document 6</b>: ADM 1/1 Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+            <li><b>Document 7</b>: ADM 1/1 Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+            <li><b>Document 8</b>: ADM 1/1 Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+        </ol>
+        <ul>
+            <li><b>Seat number</b>: 0000</li>
+            <li><b>Additional comments</b>: Loerm ipsum</li>
+        </ul>
+        <p>Please see our website for our opening times, or <a href="http://www.nationalarchives.gov.uk/about/visit-us/" title="">how to prepare for your visit</a>.</p>
+        <p>If you are using your reader’s ticket for the first time, remember to <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/do-i-need-a-readers-ticket/" title="">bring the correct documents</a> to complete your registration.</p>
     </body>
 </html>

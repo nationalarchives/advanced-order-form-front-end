@@ -18,19 +18,28 @@
                                     <li class="current"><span>3</span> Order complete</li>
                                 </ul>
                             </div>
-                        <h2>Your order is complete</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium metus varius, ornare odio a, viverra est.</p>
-                        <p id="print-button"><a href="http://discovery.nationalarchives.gov.uk/" title="" class="">Print this page</a></p>
-                        <ol class="two-tier-list">
-                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                            <li>Ref no <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum mi dolor, nec pulvinar nibh condimentum eu. Nullam auctor neque lacus, non eleifend justo dapibus et.</span></li>
-                        </ol>
+                        <p><b>Your document order has been successfully submitted.</b></p>
+                        <p>If you have entered your email address, you will receive an email confirmation of your order. You can also print this page.</p>
+                        <p>Find out how to <a href="http://www.nationalarchives.gov.uk/about/visit-us/" title="">prepare for your visit</a>.</p>
+
+                        <div class="emphasis-block">
+                            <ul class="no-bullet">
+                                <li><b>Name</b>: Joe Bloggs</li>
+                                <li><b>Telephone</b>: 07898 989898</li>
+                                <li><b>Date of visit</b>: 27 Jan 2018</li>
+                            </ul>
+                        </div>
+                        <form action="step-3.php" method="POST" id="orderformconfirm" name="orderformconfirm">
+                            <ol class="two-tier-list">
+                                <li>Document 1<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 2<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 3<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 4<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 5<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 6<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 7<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                                <li>Document 8<span>ADM 1/1: Admiralty, and Ministry of Defence, Navy Department: Correspondence and Papers</span></li>
+                            </ol>
 
                         </div>
                     </article>
