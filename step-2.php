@@ -18,7 +18,7 @@
                                     <li><span>3</span> Order complete</li>
                                 </ul>
                             </div>
-                        <p><b>Review your order and click continue to confirm, or back to make an amend.</b></p>
+                        <p>Review your order and click continue to confirm, or back to make an amend.</p>
 
                         <div class="emphasis-block">
                             <ul class="no-bullet">

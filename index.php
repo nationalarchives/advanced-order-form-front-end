@@ -38,14 +38,14 @@
                                     <legend>Your reader's ticket</legend>
                                     <div class="form-row">
                                         <label for="readers_ticket">Reader's ticket number</label>
-                                        <p class="form-hint">Enter your reader’s ticket number. If you have a card, it is located on the back. A temporary number will be in your email or issued at the end of registration sign-up.</p>
+                                        <p class="form-hint">Enter the number located on the back of your reader’s ticket, or the temporary number issued to you at the end of the reader’s ticket registration process.</p>
                                         <input type="text" id="readers_ticket" name="readers_ticket" class="small" required aria-required="true">
                                     </div>
                                 </fieldset>
                                 <fieldset>
                                     <legend>Date of visit</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Please enter the date of visit. Check our <a href="" title="">opening times</a></p>
+                                        <p class="form-hint">Select the date you plan to visit. Check our <a href="" title="">opening times</a></p>
                                         <span id="date-of-visit-day-error" class="form-error form-hint"><span>Select a day</span></span>
                                         <div id="groupErrorPlacement">
                                             <span class="dob-col day">
@@ -114,7 +114,7 @@
                                 <fieldset>
                                     <legend>Catalogue references</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Please enter your catalogue references in the fields below. To search and locate documents from this form, click on the icon next to each field.</p>
+                                        <p class="form-hint">Enter your catalogue references in the fields below. To search and locate documents from this form, click on the icon next to each field.</p>
                                         <p class="form-hint">If you need to order more than 12 consecutive documents from the same series, you may be able to <a href="http://www.nationalarchives.gov.uk/advanceorders/bulkform.asp" title="">place a bulk order</a>.</p>
                                     </div>
                                     <div class="form-row">
@@ -168,12 +168,12 @@
                                     </div>
                                     <div class="form-row">
                                         <label for="requirements">Additional requirements <span class="optional">(optional)</span></label>
-                                        <p class="form-hint">Let us know in the box below if you must access this document on the date of your arrival as we cannot guarantee that all of the documents ordered will be available. Please also use this form to tell us if you have any accessibility requirements.</p>
+                                        <p class="form-hint">Tell us if you have any accessibility requirements or special requests. We cannot guarantee that all documents ordered will be available.</p>
                                         <textarea id="requirements" name="requirements"></textarea>
                                     </div>
                                     <div class="form-row">
-                                        <label for="seat-number">Seat number  <span class="optional">(optional)</span></label>
-                                        <p class="form-hint">If you would like to specify a particular table, please look at the <a href="http://www.nationalarchives.gov.uk/documents/document-reading-room.pdf" title="">floor plan</a> (PDF, 526kb) and enter the seat number here.</p>
+                                        <label for="seat-number">Table number <span class="optional">(optional)</span></label>
+                                        <p class="form-hint">If you would like to specify a particular table, please look at the <a href="http://www.nationalarchives.gov.uk/documents/document-reading-room.pdf" title="">floor plan</a> (PDF, 526kb) and enter the table number here.</p>
                                         <input type="text" id="seat_number" name="seat_number" class="small">
                                     </div>
                                 </fieldset>
@@ -189,6 +189,7 @@
                                     </div>
                                     <div class="form-row">
                                         <label for="email_address">Email <span class="optional">(optional)</span></label>
+                                        <p class="form-hint">Enter email address to receive a copy of your order.</p>
                                         <input type="email" id="email" name="email">
                                     </div>
                                 </fieldset>
