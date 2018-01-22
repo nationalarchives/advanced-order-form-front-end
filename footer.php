@@ -148,29 +148,5 @@
 <script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/js/compiled/tna-base.min.js?ver=1.9"></script>
 <script type="text/javascript" src="https://www.nationalarchives.gov.uk/scripts/footer-img.js?ver=1.9"></script>
 <script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-includes/js/wp-embed.min.js?ver=4.4.13"></script>
-
-<!-- START OF WebTrends -->
-<script type="text/javascript">
-    //<![CDATA[
-    var _tag = new WebTrends();
-    _tag.dcsGetId();
-    //]]>>
-</script>
-<script type="text/javascript">
-    //<![CDATA[
-    // Add custom parameters here.
-    //_tag.DCSext.param_name=param_value;
-    _tag.dcsCollect();
-    //]]>>
-</script>
-<noscript>
-    &lt;div&gt;
-    &lt;img id="DCSIMG" height="1" alt="DCSIMG"
-    src="http://smartsource.nationalarchives.gov.uk/dcsdhhxq6000004rry7ab39or_9h9r/njs.gif?dcsuri=/nojavascript&amp;amp;WT.js=No&amp;amp;WT.tv=8.6.2"
-    width=1 /&gt;
-    &lt;/div&gt;
-</noscript>
-<!-- END OF WebTrends -->
-
 </body>
 </html>

@@ -17,7 +17,7 @@
 <link rel="stylesheet" id="tna-form-styles-css" href="http://www.nationalarchives.gov.uk/wp-content/plugins/tna-forms/css/tna-forms.css?ver=1.4.2" type="text/css" media="all">
 <link rel="stylesheet" id="tna-parent-styles-css" href="http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/css/base-sass.css.min?ver=1.9" type="text/css" media="all">
 <link rel="stylesheet" id="tna-child-styles-css" href="http://www.nationalarchives.gov.uk/wp-content/themes/tna-child-contact/style.css?ver=0.1" type="text/css" media="all">
-<link rel="stylesheet" id="tna-form-extension-styles-css" href="css/form-extensions.css?wrwerwe=wwwerwererre" type="text/css" media="all">
+<link rel="stylesheet" id="tna-form-extension-styles-css" href="css/form-extensions.css?wrwerwe=wwrre" type="text/css" media="all">
 <link rel="stylesheet" id="tna-google-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C400italic%2C700italic%7CBitter&amp;ver=4.4.13" type="text/css" media="all">
 <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-T8DSWV"></script><script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/js/lib/jquery-1.11.3.min.js?ver=1.11.3"></script>
 <script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/js/lib/modernizr.js?ver=2.8.3"></script>
@@ -64,19 +64,21 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+         })(window,document,'script','dataLayer','GTM-T8DSWV');
+</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
-
-<!-- Google Tag Manager -->
-<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-T8DSWV"
-    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-T8DSWV');</script>
-<!-- End Google Tag Manager -->
-
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8DSWV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header id="header" role="banner">
     <a id="skip-to-main-content" href="#breadcrumb-holder">Skip to Main Content</a>
     <div class="container">
