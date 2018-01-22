@@ -45,7 +45,7 @@
                                 <fieldset>
                                     <legend>Date of visit</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Select the date you plan to visit. Check our <a href="" title="">opening times</a></p>
+                                        <p class="form-hint">Select the date you plan to visit. Check our <a href="" title="">opening times</a>.</p>
                                         <span id="date-of-visit-day-error" class="form-error form-hint"><span>Select a day</span></span>
                                         <div id="groupErrorPlacement">
                                             <span class="dob-col day">
