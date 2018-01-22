@@ -48,7 +48,7 @@
                                         <p class="form-hint">Please enter the date of visit. Check our <a href="" title="">opening times</a></p>
                                     </div>
                                     <div class="form-row">
-                                        <span id="date-of-visit-error" class="form-error form-hint">Insert a valid day</span>
+                                        <span id="date-of-visit-error" class="form-error form-hint"><span>Insert a valid day</span></span>
                                         <div id="groupErrorPlacement">
                                             <span class="dob-col day">
                                                 <label id="day" for="dov_day">Day</label>
