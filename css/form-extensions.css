@@ -131,6 +131,9 @@ ul.no-bullet li {
 .form-row .form-error span {
 	font-size: 1em;
 }
+.checkbox .form-error {
+	margin-left: 0 !important;
+}
 @media screen and (min-width: 1024px) {
 	.form-row input[type=text].medium {
 		width: 265px !important;

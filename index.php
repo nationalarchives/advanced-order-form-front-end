@@ -46,13 +46,11 @@
                                     <legend>Date of visit</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Please enter the date of visit. Check our <a href="" title="">opening times</a></p>
-                                    </div>
-                                    <div class="form-row">
-                                        <span id="date-of-visit-error" class="form-error form-hint"><span>Insert a valid day</span></span>
+                                        <span id="date-of-visit-day-error" class="form-error form-hint"><span>Select a day</span></span>
                                         <div id="groupErrorPlacement">
                                             <span class="dob-col day">
                                                 <label id="day" for="dov_day">Day</label>
-                                                <select type="number" aria-labelledby="dov day" id="dov_day" name="dov_day" class="form-warning" aria-describedby="date-of-visit-error">
+                                                <select type="number" aria-labelledby="dov day" id="dov_day" name="dov_day" class="form-warning" aria-describedby="date-of-visit-day-error">
                                                     <option>1</option>
                                                     <option>2</option>
                                                     <option>3</option>
@@ -117,13 +115,11 @@
                                     <legend>Catalogue references</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Please enter your catalogue references in the fields below. To search and locate documents from this form, click on the icon next to each field.</p>
-                                    </div>
-                                    <div class="form-row">
                                         <p class="form-hint">If you need to order more than 12 consecutive documents from the same series, you may be able to <a href="http://www.nationalarchives.gov.uk/advanceorders/bulkform.asp" title="">place a bulk order</a>.</p>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_1">Document 1</label>
-                                        <span id="reference-1-error" class="form-error form-hint">Insert a reference number</span>
+                                        <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span>
                                         <input type="text" id="reference_1" name="reference_1" class="medium form-warning" required aria-required="true" aria-describedby="reference-1-error"><a href=""><span class="scope-selector">&nbsp;</span></a>
                                     </div>
                                     <div class="form-row">
@@ -196,7 +192,11 @@
                                         <input type="email" id="email" name="email">
                                     </div>
                                 </fieldset>
-                                <div class="form-row checkbox"><input type="checkbox" id="privacy_policy" name="privacy_policy" value="Yes" required aria-required="true"><label for="privacy_policy">I have read and agree to The National Archives' <a href="http://www.nationalarchives.gov.uk/legal/privacy.htm" title="Opens in a new window" target="_blank">privacy statement </a></label></div>
+                                <div class="form-row checkbox">
+                                    <span id="privacy-policy-error" class="form-error form-hint"><span>Please agree to our privacy policy</span></span>
+                                    <input class="form-warning" type="checkbox" id="privacy_policy" name="privacy_policy" value="Yes" required aria-required="true" aria-describedby="privacy-policy-error">
+                                    <label for="privacy_policy">I have read and agree to The National Archives' <a href="http://www.nationalarchives.gov.uk/legal/privacy.htm" title="Opens in a new window" target="_blank">privacy statement </a></label>
+                                </div>
                                 <div class="form-row submit"><input type="submit" name="submit-rre" id="submit-tna-form" value="Continue"></div>
                             </form>
                         </div>
