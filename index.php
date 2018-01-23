@@ -8,7 +8,7 @@
                 <main id="main" class="col-xs-12 col-sm-8 col-md-8" role="main">
                     <article>
                         <div class="entry-header">
-                            <h1>Order documents to view onsite</h1>
+                            <h1>Order documents in advance</h1>
                         </div>
                         <div class="entry-content clearfix">
                             <div class="arrow-steps clearfix"">
@@ -24,7 +24,7 @@
                                     <li>Insert a valid reference number</li>
                                 </ul>
                             </div>
-                            <p>This form allows you to pre-order original documents to view at The National Archives. For further information about this process, or to find out how to order digital documents or documents held by other archives, visit <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/accessing-and-copying-documents/" title="">accessing documents</a>.</p>
+                            <p>This form allows you to pre-order original documents held by The National Archives to view onsite at Kew. Find out more in <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/accessing-and-copying-documents/" title="">How to view and copy documents</a>.</p>
                             <p>To proceed with your order, you will need to know the following:</p>
                             <div class="emphasis-block">
                                 <ul>
@@ -35,7 +35,7 @@
                             </div>
                             <form action="step-2.php" method="POST" name="orderform" id="orderform">
                                 <fieldset>
-                                    <legend>Your reader's ticket</legend>
+                                    <legend>Step 1</legend>
                                     <div class="form-row">
                                         <label for="readers_ticket">Reader's ticket number</label>
                                         <p class="form-hint">Enter the number located on the back of your reader’s ticket, or the temporary number issued to you at the end of the reader’s ticket registration process.</p>
@@ -43,7 +43,7 @@
                                     </div>
                                 </fieldset>
                                 <fieldset>
-                                    <legend>Date of visit</legend>
+                                    <legend>Step 2</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Select the date you plan to visit. Check our <a href="" title="">opening times</a>.</p>
                                         <span id="date-of-visit-day-error" class="form-error form-hint"><span>Select a day</span></span>
@@ -112,7 +112,7 @@
                                     </div>
                                 </fieldset>
                                 <fieldset>
-                                    <legend>Catalogue references</legend>
+                                    <legend>Step 3</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Enter your catalogue references in the fields below. To search and locate documents from this form, click on the icon next to each field.</p>
                                         <p class="form-hint">If you need to order more than 12 consecutive documents from the same series, you may be able to <a href="http://www.nationalarchives.gov.uk/advanceorders/bulkform.asp" title="">place a bulk order</a>.</p>
@@ -178,7 +178,7 @@
                                     </div>
                                 </fieldset>
                                 <fieldset>
-                                    <legend>Your details</legend>
+                                    <legend>Step 4</legend>
                                     <div class="form-row">
                                         <label for="full_name">Full name</label>
                                         <input type="text" id="full_name" name="full_name" required aria-required="true">
