@@ -88,7 +88,7 @@ p span.mandatory, span.mandatory {
 }
 .form-row .dob-col {
 	width: 100%;
-	max-width: 65px !important;
+	max-width: 63px !important;
 }
 legend {
 	margin-bottom: 0.3em !important;
