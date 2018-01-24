@@ -19,7 +19,7 @@
 <link rel="stylesheet" id="tna-child-styles-css" href="http://www.nationalarchives.gov.uk/wp-content/themes/tna-child-contact/style.css?ver=0.1" type="text/css" media="all">
 <link rel="stylesheet" id="tna-form-extension-styles-css" href="css/form-extensions.css?wrwerwe=wwrde2" type="text/css" media="all">
 <link rel="stylesheet" id="tna-google-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C400italic%2C700italic%7CBitter&amp;ver=4.4.13" type="text/css" media="all">
-<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-T8DSWV"></script><script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/js/lib/jquery-1.11.3.min.js?ver=1.11.3"></script>
+<script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/js/lib/jquery-1.11.3.min.js?ver=1.11.3"></script>
 <script type="text/javascript" src="http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/js/lib/modernizr.js?ver=2.8.3"></script>
 <link rel="alternate" type="application/json+oembed" href="http://www.nationalarchives.gov.uk/contact-us/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcontact.livelb.nationalarchives.gov.uk%2Fmake-a-records-and-research-enquiry%2Fmake-a-records-and-research-enquiry-form%2F">
 <link rel="alternate" type="text/xml+oembed" href="http://www.nationalarchives.gov.uk/contact-us/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcontact.livelb.nationalarchives.gov.uk%2Fmake-a-records-and-research-enquiry%2Fmake-a-records-and-research-enquiry-form%2F&amp;format=xml">
