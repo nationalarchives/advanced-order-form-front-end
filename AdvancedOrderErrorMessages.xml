@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rowMessages>
+  
+  <row Err ="1" Code="NAME_NOT_ENTERED" DisplayMessage="Enter name." Description="Check if reader's full name is entered"  />
+  <row Err ="2" Code="TELEPHONE_NUMBER_NOT_ENTERED" DisplayMessage="Enter telephone number." Description="Check if telephone number is entered"  />
+  
+  <row Err ="3" Code="TICKET_NUMBER_NOT_ENTERED" DisplayMessage="Enter your reader's ticket number." Description="Check if Reader's ticket is entered and is numeric"  />
+  <row Err ="4" Code="INVALID_TICKET" DisplayMessage="Your reader’s ticket has expired. Re-register and enter a new ticket number." Description="Check if ticket exists. Only accept tickects that are active, inactive new registration or temporary tickets. Expired, Lost tickets are not accepted"  />
+  
+  <row Err ="5" Code="INVALID_EMAIL_ADDRESS" DisplayMessage="Enter a valid email address." Description="Check for valid email address format."  />
+  <row Err ="6" Code="INVALID_SEAT_NUMBER" DisplayMessage="Enter a valid table number." Description="Check for valid seat number entered. The seat number must be numeric"  />
+ 
+  <row Err ="7" Code="DAY_OF_VISIT_DAY_NOT_ENTERED" DisplayMessage="Select day." Description="Check if date of visit day is selected from the drop down"  />
+  <row Err ="8" Code="DAY_OF_VISIT_MONTH_NOT_ENTERED"  DisplayMessage="Select month." Description="Check if date of visit month is selected from the drop down" />
+  <row Err ="9" Code="DAY_OF_VISIT_YEAR_NOT_ENTERED" DisplayMessage="Select year." Description="Check if date of visit year is selected from the drop down"  />
+  
+  <row Err ="10" Code="INVALID_ORDER_DATE" DisplayMessage="Invalid day and month combination. Amend to proceed." Description="Check for valid date. Example if month selected is November and day of visit is 31st. This is invalid as Novembee ends on the 30th"  />
+  <row Err ="11" Code="ORDER_DATE_IS_GREATER_THAN_SIX_WEEKS" DisplayMessage="Orders cannot be placed more than six weeks in advance. Amend visit date." Description="check that the date of visit is not more than 6 weeks in the future" />
+  <row Err ="12" Code="TNA_NOT_OPEN_ON_DAY_OF_VISIT"  DisplayMessage="The reading rooms are closed on this day. Check our opening times and select a new date." Description="check that TNA is open on the day of visit" />
+ 
+  <row Err ="13" Code="ORDER_FALLS_WITHIN_TIME_LIMIT"  DisplayMessage="Orders for next-day delivery must be placed before 16:00. Select a new date." Description="check for later order (cut off time is currently set at 4pm). If the order time is later than 4pm and the date of visit is only one day later than the current date then the order is too late" />
+  <row Err ="14" Code="ORDER_RESERVATION_HAS_PASSED" DisplayMessage="Orders for next-day delivery must be placed before 16:00. Select a new date." Description="Check to see if order date falls within TNA non-working days - that there is at least one working hour between the current date/time and the date of visit." />
+  <row Err ="15" Code= "ORDER_DATE_MUST_BE_GREATER_THAN_3_WORKING_DAYS_" DisplayMessage="Documents held offsite require three working days for delivery. Select a new date." Description="For offsite documents, order date must be greater than 3 working days to allow for delivery" />
+  
+  <row Err ="16" Code= "DOCUMENT_DAILY_LIMIT_TEMP_TICKET_REACHED" DisplayMessage="Maximum number of documents reached per reader’s ticket. Return current documents to place a new order." Description="Check for total daily limit for temporarily tickets. It cannot exceed more than 12 documents" />
+  <row Err ="17" Code= "DOCUMENT_DAILY_LIMIT_NORMAL_TICKET_REACHED" DisplayMessage="Maximum number of documents reached per reader’s ticket. Return current documents to place a new order." Description="Check for total daily limit with nomral tickets. It cannot excceed more than 12 documents" />
+  <row Err ="18" Code= "DOCUMENT_ORDER_LIMIT_REACHED" DisplayMessage="Maximum number of documents reached per reader’s ticket. Return current documents to place a new order." Description="Check for total order limit. It cannot exceed more than 24 documents" />
+ 
+  <row Err ="19" Code= "DOCUMENT_REFERENCE_NOT_ENTERED" DisplayMessage="Enter a catalogue reference." Description="Check to see if atleast one document reference is entered"  />
+  <row Err ="20" Code= "DOCUMENT_REFERENCE_DUPLICATED" DisplayMessage="Remove duplicate catalogue reference." Description="Check for duplicate references"  />
+  <row Err ="21" Code= "TERMS_AND_CONDITIONS_SELECTED" DisplayMessage="Read and tick privacy statement box." Description="Check to see if Terms and Conditios/Rules check box has been ticked" />
+
+  <row Err ="0" Code= "DOCUMENT_REFERENCE_VALID" DisplayMessage="" Description="Indicates a valid reference, meaning reference can be ordered and there is no need to display error message" />
+  <row Err ="-1" Code= "DOCUMENT_REFERENCE_INVALID_LETTER_CODE_OR_CLASS" DisplayMessage="Document unidentifiable. Check catalogue reference has been entered correctly." Description="Check for valid reference -invalid letter code or class entered" />
+  <row Err ="-2" Code= "DOCUMENT_REFERENCE_INVALID_SUBCLASS" DisplayMessage="Document unidentifiable. Check catalogue reference has been entered correctly." Description="Check for valid reference -invalid sub class entered" />
+  <row Err ="-3" Code= "DOCUMENT_REFERENCE_NO_ROWS_FOUND" DisplayMessage="Document unidentifiable. Check catalogue reference has been entered correctly." Description="Check for valid reference -  no records (rows) found in database" />
+  <row Err ="-4" Code= "DOCUMENT_REFERENCE_MULITIPLE_ROWS_FOUND" DisplayMessage="Multiple records available. Check catalogue and refine reference." Description="More than one record found for reference" />
+  <row Err ="-5" Code= "DOCUMENT_REFERENCE_INVALID_LETTER_CODE" DisplayMessage="Document unidentifiable. Check catalogue reference has been entered correctly." Description="Check for valid reference - invalid class entered" />
+  <row Err ="-6" Code= "DOCUMENT_REFERENCE_UN_ORDERABLE" DisplayMessage="" Description="Check for un-orderable document" />
+  <row Err ="-7" Code= "DOCUMENT_REFERENCE_CLOSED" DisplayMessage="Document is closed and cannot be ordered. Check the catalogue for more information." Description="Check for closed documents" />
+  <row Err ="-8" Code= "DOCUMENT_REFERENCE_OFFSITE" DisplayMessage="Document is held offsite." Description="Check for documents stored offsite (deepstore)" />
+  <row Err ="-9" Code= "DOCUMENT_REFERENCE_KEW_SURROGATE" DisplayMessage="Microfiche or microfilm documents cannot be ordered. Check the catalogue for more information." Description="Check for kew surrogate such microfiche or microfilm' records " />
+  <row Err ="-10" Code= "DOCUMENT_REFERENCE_UNFIT" DisplayMessage="Document is missing and cannot be ordered. Check the catalogue for more information." Description="Check for unavailable documents" />
+  <row Err ="-11" Code= "DOCUMENT_REFERENCE_MISSING" DisplayMessage="Document is missing and cannot be ordered. Check the catalogue for more information." Description="Check for missing documents" />
+  <row Err ="-12" Code= "DOCUMENT_REFERENCE_DIGITAL_SURROGATE_AVAILABLE" DisplayMessage="Document is digitised and cannot be ordered. Check the catalogue for more information." Description="Check for digitial surrogate records or records digitised by  third parties such as ancenstry, find my past or shakespre'swill records" />
+  <row Err ="-13" Code= "DOCUMENT_REFERENCE_NOT_HELD_AT_KEW" DisplayMessage="Document is held by another archive and cannot be viewed at The National Archives. Check the catalogue for more information." Description="Check for documents held by other archives" />
+  <row Err ="-14" Code= "DOCUMENT_REFERENCE_RELOCATION" DisplayMessage="Document is missing and cannot be ordered. Check the catalogue for more information." Description="Check for relocated documents" />
+  <row Err ="-15" Code= "DOCUMENT_REFERENCE_NO_PATTERN_MATCH" DisplayMessage="Document unidentifiable. Check catalogue reference has been entered correctly." Description="Check for valid reference -no match in regular expression pattern found" />
+  
+</rowMessages>
+
+
