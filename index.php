@@ -114,7 +114,7 @@
                                 <fieldset>
                                     <legend>Step 3</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Enter your catalogue references in the fields below. To search and locate documents from this form, click on the icon next to each field.</p>
+                                        <p class="form-hint">Enter your catalogue references into the fields below, or hit the 'plus' button to search and add documents from Discovery.</p>
                                         <p class="form-hint">If you need to order more than 12 consecutive documents from the same series, you may be able to <a href="http://www.nationalarchives.gov.uk/advanceorders/bulkform.asp" title="">place a bulk order</a>.</p>
                                     </div>
                                     <div class="form-row">
@@ -124,47 +124,47 @@
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_2">Document 2 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_2" name="reference_2" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_2" name="reference_2" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_3">Document 3 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_3" name="reference_3" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_3" name="reference_3" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_4">Document 4 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_4" name="reference_4" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_4" name="reference_4" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_5">Document 5 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_5" name="reference_5" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_5" name="reference_5" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_6">Document 6 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_6" name="reference_6" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_6" name="reference_6" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_7">Document 7 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_7" name="reference_7" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_7" name="reference_7" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_8">Document 8 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_8" name="reference_8" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_8" name="reference_8" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_9">Document 9 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_9" name="reference_9" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_9" name="reference_9" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_10">Document 10 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_10" name="reference_10" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_10" name="reference_10" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_11">Document 11 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_11" name="reference_11" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_11" name="reference_11" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_12">Document 12 <span class="optional">(optional)</span></label>
-                                        <input type="text" id="reference_12" name="reference_12" class="medium"><a href=""><span class="scope-selector">&nbsp;</span></a>
+                                        <input type="text" id="reference_12" name="reference_12" class="medium"><a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a>
                                     </div>
                                     <div class="form-row">
                                         <label for="requirements">Additional requirements <span class="optional">(optional)</span></label>

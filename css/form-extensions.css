@@ -11,13 +11,16 @@
 }
 .scope-selector {
 	    display: inline-block;
-	    background-color: #ccc;
-	    background-size: cover;
+	    background: #efefef url('../images/add-icon.png') no-repeat center center;
 	    cursor: pointer;
-	    width: 34px;
-	    height: 34px;
-	    line-height: 35px;
-	    background-image: url('http://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/search-white.png');
+		border-radius: 50%;
+		border: 1px solid #999;
+		margin-left: 8px;
+	    width: 27px;
+	    height: 27px;
+}
+.scope-selector:hover {
+	background: #ccc url('../images/add-icon.png') no-repeat center center;
 }
 .arrow-steps {
 	margin-bottom: 25px;
