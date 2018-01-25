@@ -115,7 +115,7 @@
                                     <legend>Step 3</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Enter your catalogue references into the fields below, or hit the 'plus' button to search and add documents from Discovery.</p>
-                                        <p class="form-hint">If you need to order more than 12 consecutive documents from the same series, you may be able to <a href="http://www.nationalarchives.gov.uk/advanceorders/bulkform.asp" title="">place a bulk order</a>.</p>
+                                        <p class="form-hint">If you need to order more than 12 documents from the same series, you may be able to <a href="http://www.nationalarchives.gov.uk/advanceorders/bulkform.asp" title="">place a bulk order</a>.</p>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_1">Document 1</label>
