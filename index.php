@@ -33,7 +33,7 @@
                                     <li><b>Catalogue reference(s)</b>. You can order up to 12 documents, and have up to 24 active on your ticket at any given time. You search the catalogue and locate references in advance, or search and populate the order fields from this page.</li>
                                 </ul>
                             </div>
-                            <form action="step-2.php" method="POST" name="orderform" id="orderform">
+                            <form action="step-2.php" method="POST" name="orderform" id="orderform" class="form-abandonment">
                                 <fieldset>
                                     <legend>Step 1</legend>
                                     <div class="form-row">
@@ -115,57 +115,56 @@
                                     <legend>Step 3</legend>
                                     <div class="form-row">
                                         <p class="form-hint">Enter your catalogue references into the fields below.</p>
-                                        <img src="images/add-icon.png" alt="Add icon" class="scope-selector"><p class="form-hint left-align">Find and add documents from Discovery.</p>
                                         <p class="form-hint">If you need to order more than 12 documents from the same series, you may be able to <a href="http://www.nationalarchives.gov.uk/advanceorders/bulkform.asp" title="">place a bulk order</a>.</p>
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_1">Document 1</label>
                                         <span id="reference-1-error" class="form-error form-hint"><span>Insert a reference number</span></span>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_1" name="reference_1" class="medium form-warning" required aria-required="true" aria-describedby="reference-1-error">
+                                        <input type="text" id="reference_1" name="reference_1" class="medium form-warning" required aria-required="true" aria-describedby="reference-1-error">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_2">Document 2 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_2" name="reference_2" class="medium">
+                                        <input type="text" id="reference_2" name="reference_2" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_3">Document 3 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_3" name="reference_3" class="medium">
+                                        <input type="text" id="reference_3" name="reference_3" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_4">Document 4 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_4" name="reference_4" class="medium">
+                                        <input type="text" id="reference_4" name="reference_4" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_5">Document 5 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_5" name="reference_5" class="medium">
+                                        <input type="text" id="reference_5" name="reference_5" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_6">Document 6 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_6" name="reference_6" class="medium">
+                                        <input type="text" id="reference_6" name="reference_6" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_7">Document 7 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_7" name="reference_7" class="medium">
+                                        <input type="text" id="reference_7" name="reference_7" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_8">Document 8 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_8" name="reference_8" class="medium">
+                                        <input type="text" id="reference_8" name="reference_8" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_9">Document 9 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_9" name="reference_9" class="medium">
+                                        <input type="text" id="reference_9" name="reference_9" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_10">Document 10 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_10" name="reference_10" class="medium">
+                                        <input type="text" id="reference_10" name="reference_10" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_11">Document 11 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_11" name="reference_11" class="medium">
+                                        <input type="text" id="reference_11" name="reference_11" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="reference_12">Document 12 <span class="optional">(optional)</span></label>
-                                        <a href="" title="Opens Discovery - our catalogue" class="scope-selector">&nbsp;</a><input type="text" id="reference_12" name="reference_12" class="medium">
+                                        <input type="text" id="reference_12" name="reference_12" class="medium">
                                     </div>
                                     <div class="form-row">
                                         <label for="requirements">Additional requirements <span class="optional">(optional)</span></label>
