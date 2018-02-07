@@ -18,12 +18,14 @@
                                     <li><span>3</span> Order complete</li>
                                 </ul>
                             </div>
-                            <div class="emphasis-block error-message" role="alert"><h2>There was a problem:</h2>
+                            <h2>Place an order</h2>
+                            <!-- <div class="emphasis-block error-message" role="alert"><h2>There was a problem:</h2>
                                 <ul>
                                     <li>Insert a valid day</li>
                                     <li>Insert a valid reference number</li>
                                 </ul>
                             </div>
+                            -->
                             <p>This form allows you to pre-order original documents held by The National Archives to view onsite at Kew. Find out more in <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/accessing-and-copying-documents/" title="">How to view and copy documents</a>.</p>
                             <p>To proceed with your order, you will need to know the following:</p>
                             <div class="emphasis-block">

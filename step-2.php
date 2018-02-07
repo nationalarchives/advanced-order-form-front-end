@@ -18,6 +18,7 @@
                                     <li><span>3</span> Order complete</li>
                                 </ul>
                             </div>
+                        <h2>Check your order</h2>
                         <p>Review your order and click continue to confirm, or back to make an amend.</p>
 
                         <div class="emphasis-block">
