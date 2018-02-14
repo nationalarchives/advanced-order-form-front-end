@@ -79,6 +79,17 @@
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8DSWV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+<div class="notification-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="notice">
+                    <strong class="title">BETA</strong>
+                    Tell us what you think of our new homepage </div>
+            </div>
+        </div>
+    </div>
+</div>
 <header id="header" role="banner">
     <a id="skip-to-main-content" href="#breadcrumb-holder">Skip to Main Content</a>
     <div class="container">
