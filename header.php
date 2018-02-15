@@ -85,7 +85,7 @@
             <div class="col-md-12">
                 <div class="notice">
                     <strong class="title">BETA</strong>
-                    Tell us what you think of our new homepage </div>
+                    Text needed here </div>
             </div>
         </div>
     </div>

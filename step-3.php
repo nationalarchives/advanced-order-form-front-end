@@ -19,7 +19,12 @@
                                 </ul>
                             </div>
                         <h2>Order complete</h2>
-                        <div class="emphasis-block success"><p>Your document order has been successfully submitted.</p></div>
+                        <div class="emphasis-block success">
+                            <p>Your document order has been successfully submitted.
+                                <br>
+                                <a href="https://www.smartsurvey.co.uk/s/AOBQR/" title="" class="small">Survey text here</a>
+                            </p>
+                        </div>
                         <p>If you have entered your email address, you will receive an email confirmation of your order. You can also print this page.</p>
                         <p>Find out how to <a href="http://www.nationalarchives.gov.uk/about/visit-us/" title="">prepare for your visit</a>.</p>
 
