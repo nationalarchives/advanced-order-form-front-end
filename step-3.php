@@ -28,6 +28,8 @@
                         <p>If you have entered your email address, you will receive an email confirmation of your order. You can also print this page.</p>
                         <p>Find out how to <a href="http://www.nationalarchives.gov.uk/about/visit-us/" title="">prepare for your visit</a>.</p>
 
+                        <p>Please note: from 3 April 2018 we will introduce new charges for car parking at our site in Kew. <a href="http://www.nationalarchives.gov.uk/about/news/changes-to-car-parking-the-national-archives-site-kew/">Find out more</a>.</p>
+
                         <div class="emphasis-block">
                             <ul class="no-bullet">
                                 <li><b>Name</b>: Joe Bloggs</li>
