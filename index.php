@@ -26,15 +26,27 @@
                                 </ul>
                             </div>
                             -->
-                            <p>This form allows you to pre-order original documents held by The National Archives to view onsite at Kew. Find out more in <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/accessing-and-copying-documents/" title="">How to view and copy documents</a>.</p>
+                            <p>This form allows you to pre-order original documents held by The National Archives to view onsite at Kew. Find out more in <a href="http://www.nationalarchives.gov.uk/about/visit-us/researching-here/how-to-order-view-and-copy-documents/" title="">How to order, view and copy documents</a>.</p>
                             <p>To proceed with your order, you will need to know the following:</p>
                             <div class="emphasis-block">
                                 <ul>
                                     <li><b>Your reader’s ticket number</b>. If you don’t have one, <a href="https://secure.nationalarchives.gov.uk/login/yourdetails" title="">apply online for a reader’s ticket</a> - it only takes 15 minutes.</li>
-                                    <li><b>Date of visit</b>. Orders for next day delivery must be placed by 16:00. Documents held offsite will need to be ordered three working days in advance.</li>
+                                    <li><b>Date of visit</b>. Orders for next day delivery must be placed by 16:00. Documents held off site will need to be ordered three working days in advance.</li>
                                     <li><b>Catalogue reference(s)</b>. You can order up to 12 documents, and have up to 24 active on your ticket at any given time. You search the catalogue and locate references in advance, or search and populate the order fields from this page.</li>
                                 </ul>
                             </div>
+                            <p>Please note: when a surrogate version of a document is available - digital, microfilm or microfiche - you will not be able to order the original records unless</p>
+                            <ul>
+                                <li>the surrogate is illegible or obscured</li>
+                                <li>viewing the original record provides information not available from the surrogate</li>
+                            </ul> 
+                            <p>To request to view the original record where a surrogate exists, please complete our <a href="https://www.nationalarchives.gov.uk/contact-us/make-a-records-and-research-enquiry/">records and research enquiry form</a>. You need to include</p>
+                            <ul>
+                                <li>your reader's ticket number</li>
+                                <li>the date of your visit</li>
+                                <li>details of why the surrogate is not suitable for your purposes</li>
+                            </ul>     
+                            <p>Microfilm and microfiche documents can be viewed on our self-service machines and do not need to be ordered.</p>
                             <form action="step-2.php" method="POST" name="orderform" id="orderform" class="form-abandonment">
                                 <fieldset>
                                     <legend>Step 1</legend>
@@ -47,7 +59,7 @@
                                 <fieldset>
                                     <legend>Step 2</legend>
                                     <div class="form-row">
-                                        <p class="form-hint">Select the date you plan to visit. Check our <a href="" title="">opening times</a>.</p>
+                                        <p class="form-hint">Select the date you plan to visit. Check our <a href="https://www.nationalarchives.gov.uk/about/visit-us/opening-times/" title="">opening times</a>.</p>
                                         <span id="date-of-visit-day-error" class="form-error form-hint"><span>Select a day</span></span>
                                         <div id="groupErrorPlacement">
                                             <span class="dob-col day">
@@ -195,11 +207,8 @@
                                         <input type="email" id="email" name="email">
                                     </div>
                                 </fieldset>
-                                <div class="form-row checkbox">
-                                    <span id="privacy-policy-error" class="form-error form-hint"><span>Please agree to our privacy policy</span></span>
-                                    <input class="form-warning" type="checkbox" id="privacy_policy" name="privacy_policy" value="Yes" required aria-required="true" aria-describedby="privacy-policy-error">
-                                    <label for="privacy_policy">I have read and agree to The National Archives' <a href="http://www.nationalarchives.gov.uk/legal/privacy.htm" title="Opens in a new window" target="_blank">privacy statement </a></label>
-                                </div>
+                                <p>The National Archives takes your privacy seriously and we are committed to the responsible handling of personal information in accordance with our Information Charter. 
+                                See our <a href="http://www.nationalarchives.gov.uk/legal/privacy.htm" target="_blank">privacy policy</a> for more details.</p>
                                 <div class="form-row submit"><input type="submit" name="submit-rre" id="submit-tna-form" value="Continue"></div>
                             </form>
                         </div>
